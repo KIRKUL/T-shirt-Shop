@@ -1,0 +1,97 @@
+@font-face{
+    font-family: 'alegreya';
+    src:url('./fonts/AlegreyaSansSC-Regular.ttf') format('ttf'),
+    url('./fonts/AlegreyaSansSC-Medium.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    height: 100%;
+}
+.wrapper {
+    overflow:hidden;
+    min-width: 1310px;
+}
+     body{
+         font: 16px /1.42em "Roboto", Arial, sans-serif;
+         color:#212121;
+         -webkit-font-smoothing: antialiased;
+         -moz-osx-font-smoothing:grayscale;
+     }
+    .hero {
+         height: 100vh;
+         min-height: 650px;
+         background: url("./img/bg/hero.jpg") center center / cover no-repeat;
+         position: relative;
+    }
+         .header {
+             width: 1290px;
+             margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 27px;
+         }
+         .mail {
+             text-decoration:  none;
+             text-align: center;
+             color:inherit;
+        }
+         .mail__title {
+             margin-bottom: 3px;        
+            }
+            .mail__content {
+               background: #212121; 
+               color:#ffbc2f;
+               font-size: 16px;
+               padding: 5px 10px;
+            }
+         
+            .hero__content {
+                position:absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 1140px;
+                height: 72%;
+            }
+               .fade-slider{
+width: 100%;
+height: 100%;
+                            }
+            .fade-slider__item{
+                background: url('img/content/hero/slider_pic_1.png') center center/contain no-repeat;
+                height: 100%;
+            }
+            .fade-slider__text{
+                position:absolute
+            left: 50%;
+            top: 50%;   
+            transform: translate(14%, 98%); 
+            }
+        .lined-text{
+            font-family:"alegreya",Arial, Helvetica, sans-serif;
+            color:#fff;
+            line-height: 1;
+            font-size: 40px;
+            text-transform: uppercase;
+            display:flex;
+            flex-direction: column;
+            align-items: flex-start;        
+        }
+        .lined-text__word{
+            background:  #000;
+            padding: 0 17px 8px;
+            margin-top: -7px;
+        }
+        .lined-text__word--color-yellow{
+    color: #ffbc2f;
+}    
+.lined-text__word:nth-child(2){
+    margin-left: 8px;
+}
+.lined-text__word:nth-child(4){
+    margin-left: 8px;
+}
+
